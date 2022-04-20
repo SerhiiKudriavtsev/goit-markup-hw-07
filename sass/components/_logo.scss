@@ -1,0 +1,31 @@
+.logo {
+    font-family: Raleway, Oleo Script, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--accent-color);
+    margin-right: 93px;
+    align-self: center;
+    transition: 250ms var(--timing-function);
+
+    &:hover {
+        color: var(--primery-text-color);
+    }
+}
+
+.logo--studio {
+    color: var(--primery-text-color);
+    transition: 250ms var(--timing-function);
+
+    &:hover {
+        color: var(--accent-color);
+    }
+    .logo:hover & {
+        color: var(--accent-color);
+    }
+}
+
+
+
+
+
