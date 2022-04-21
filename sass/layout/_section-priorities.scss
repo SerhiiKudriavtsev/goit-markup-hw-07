@@ -1,6 +1,6 @@
 .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    // padding-top: 94px;
+    // padding-bottom: 94px;
 
     .list {
         display: flex;
@@ -32,5 +32,31 @@
             border: 0;
             clip: rect(0 0 0 0);
         }
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .background-icon {
+        display: flex;
+        min-width: 270px;
+        min-height: 120px;
+        background-color: var(--background-team-color);
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    &__icon {
+        display: flex;
+        width: 70px;
+        height: 70px;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 1.71;
     }
 }
